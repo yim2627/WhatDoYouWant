@@ -16,6 +16,7 @@
 		A64705FA27FC53080036BC23 /* WhatDoYouWantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64705F927FC53080036BC23 /* WhatDoYouWantTests.swift */; };
 		A647060427FC53080036BC23 /* WhatDoYouWantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A647060327FC53080036BC23 /* WhatDoYouWantUITests.swift */; };
 		A647060627FC53080036BC23 /* WhatDoYouWantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A647060527FC53080036BC23 /* WhatDoYouWantUITestsLaunchTests.swift */; };
+		A6E4DDE527FC68940005266D /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A6E4DDE427FC68940005266D /* .swiftlint.yml */; };
 		CDCCDDE43C348C0562D4889D /* Pods_WhatDoYouWant_WhatDoYouWantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1C09A77D53F532C7B6C113 /* Pods_WhatDoYouWant_WhatDoYouWantUITests.framework */; };
 		EC2DE0D78DC1A0362E3A62E8 /* Pods_WhatDoYouWantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9F3E91D9E8FC080DC6030A /* Pods_WhatDoYouWantTests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		A64705FF27FC53080036BC23 /* WhatDoYouWantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatDoYouWantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A647060327FC53080036BC23 /* WhatDoYouWantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoYouWantUITests.swift; sourceTree = "<group>"; };
 		A647060527FC53080036BC23 /* WhatDoYouWantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoYouWantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6E4DDE427FC68940005266D /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		CCBD0FB723D01F05E6AE7116 /* Pods-WhatDoYouWant-WhatDoYouWantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatDoYouWant-WhatDoYouWantUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatDoYouWant-WhatDoYouWantUITests/Pods-WhatDoYouWant-WhatDoYouWantUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D29FA5CC8FDD6CA5DC5C44F3 /* Pods-WhatDoYouWantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatDoYouWantTests.release.xcconfig"; path = "Target Support Files/Pods-WhatDoYouWantTests/Pods-WhatDoYouWantTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA5AF0B49C28C60B542A5967 /* Pods-WhatDoYouWant-WhatDoYouWantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatDoYouWant-WhatDoYouWantUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatDoYouWant-WhatDoYouWantUITests/Pods-WhatDoYouWant-WhatDoYouWantUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		A64705D627FC53050036BC23 = {
 			isa = PBXGroup;
 			children = (
+				A6E4DDE427FC68940005266D /* .swiftlint.yml */,
 				A64705E127FC53050036BC23 /* WhatDoYouWant */,
 				A64705F827FC53080036BC23 /* WhatDoYouWantTests */,
 				A647060227FC53080036BC23 /* WhatDoYouWantUITests */,
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E4DDE527FC68940005266D /* .swiftlint.yml in Resources */,
 				A64705EF27FC53070036BC23 /* LaunchScreen.storyboard in Resources */,
 				A64705EC27FC53070036BC23 /* Assets.xcassets in Resources */,
 			);
